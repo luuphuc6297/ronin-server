@@ -39,7 +39,7 @@ const radomWallet = (userList) => {
                         name: "United States dollar",
                         code: "USD",
                         symbol: "$",
-                        logo: "https://res.cloudinary.com/drcqjnla7/image/upload/v1654532965/image_9_stlx8j.svg"
+                        logo: "https://res.cloudinary.com/drcqjnla7/image/upload/v1654532965/image_9_stlx8j.svg",
                         amount: faker.finance.amount(4),
                     },
                     {
