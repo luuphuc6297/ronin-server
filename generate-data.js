@@ -7,7 +7,17 @@ faker.locale = "en";
 const randomUserList = (numberOfUsers) => {
     if (numberOfUsers <= 0) return [];
 
-    const userList = [];
+    const userList = [
+        {
+            id: "fad3a9ac-3d0b-48cd-8bbb-a5859111112c",
+            name: "Luu Phuc",
+            username: "luuphuc6297",
+            roninAddress: "4730580766917277",
+            avatar: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1002.jpg",
+            createdAt: 1655198962956,
+            updatedAt: 1655198962956,
+        },
+    ];
 
     Array.from(new Array(numberOfUsers)).forEach(() => {
         const user = {
